@@ -1,0 +1,144 @@
+
+html, body {
+	 height: 100%; 
+	 margin: 0;
+	 margin-top: 10px; 
+	 padding: 0; }
+
+
+.box {
+	display: grid;
+	grid-template-columns: 1fr 2fr 2fr 1fr;
+	align-items: stretch;
+	height: 100%;
+	text-align: center;
+}
+
+
+
+.left-panel { 
+	background-color: rgba(0,0,255,0.1);
+	height: 100%;
+	color: rgba(0,0,0,0.2);
+}
+
+
+
+	
+.habit { 
+	background-color:rgba(255,0,0,0.1);	
+}
+
+ #habit-icon { 
+	position: relative;
+	margin-top: 10%;
+	height: 10%;
+}
+
+.main-table { 
+	margin: 0 15%;
+	/* background-color: magenta; */
+	width: 70%;
+	/* border-collapse: collapse; */
+	border-collapse: separate;
+	/* border-spacing: 1rem; */
+	border-spacing: 1rem 0;
+	border-top-color: maroon;
+}
+
+
+
+.main-table-check{ 
+	text-align: center;
+}
+
+.main-table-label { 
+	text-align: left;
+	/* color: magenta; */
+}
+
+tr { 
+	border-color: magenta;
+}
+
+.main-table { 
+	border: 3px solid black;
+	border-radius: 10px;
+	/* background-color: white; */
+}
+
+
+
+.main-table-row { 
+	height: 3rem;
+}
+
+
+.todo { 
+	background-color: rgba(0,255,0,0.1);
+	height: 100%;
+}
+
+#todo-icon { 
+	position: relative;
+	margin-top: 13%;
+	height: 8%;
+}
+
+
+
+
+.date {
+	background-color:  rgba(100,200,100,0.1);
+	height: 20%;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.memo { 
+	background-color:  rgba(200,100,50,0.1);
+	height: 90%;
+	padding: 0 1rem;
+}
+
+/* .date-title { 
+	text-align: left;
+} */
+
+#d-day { 
+	width: 100%;
+	margin-top: 1rem;
+	/* margin-left: 1rem;
+	margin-right: 1rem; */
+	text-align: left;
+
+	/* background-color: magenta; */
+}
+
+/* #date-remained {
+	text-align: right;
+} */
+
+
+
+.main-contents { 
+	position: relative;
+	top: 2em;
+	height: 40%;
+	/* background-color: rgba(10, 50, 100, 0.5); */
+}
+
+/* #current-date { 
+	font-size: 2em;
+} */
+
+#current-date { 
+	display: inline;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.memo-title { 
+	display: inline;
+	font-size: 2em;
+}

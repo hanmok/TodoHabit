@@ -1,0 +1,49 @@
+
+
+
+  .box {
+	display: grid;
+	/* width: 540px; */
+	/* grid-template-columns: 120px 120px 120px; */
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: start;
+	justify-content: space-between;
+  }
+  
+  .box :first-child {
+	  align-self: center;
+  }
+		
+  
+  .box :first-child {
+	  align-self: center;
+  }
+
+div { 
+	background-color: palegoldenrod;
+}
+
+#one { 
+	background-color: green;
+}
+
+#two { 
+	background-color: pink;
+}
+
+#three { 
+	background-color: blue;
+}
+
+#four { 
+	background-color: greenyellow;
+}
+
+#five { 
+	background-color: cyan;
+}
+
+#six { 
+	background-color: brown;
+}
+
